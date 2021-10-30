@@ -2,111 +2,99 @@
 <html>
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arnold Kitchen</title>
+    <title>Biff Bang Pow</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/tab-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+<section class="top">
+    <div class="icons">
+        <ul>
+            <li><a href=" "><i class="fab fa-linkedin"></i></a></li>
+            <li><a href=" "><i class="fab fa-facebook"></i></a></li>
+            <li><a href=" "><i class="fab fa-twitter"></i></a></li>
+            <li><a href=" "><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="contacts">
+        <ul>
+            <li><i class="fas fa-phone"></i></li>
+            <li>01234 567 890</li>
+            <li><i class="fas fa-envelope"></i></li>
+            <li>email@example.com</li>
+        </ul>
+    </div>
+</section>
 <section class="header">
      <nav>
-         <a href="index.html"><img src="images/logo.png"></a>
+         <a href="index.html"><img src="images/icon.jpg"></a>
          <div class="nav-links" id="navLinks">
-            <i class='bx bx-x' onclick="hideMenu()"></i>
+            <i class="fas fa-times" onclick="hideMenu()"></i>
               <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="cooking.html">Cooking</a></li>
-                <li><a href="life.html">Life</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">JOBS</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#" class="hero-btn blue-btn"><i class="fab fa-linkedin"></i></i> SUBMIT CV</a></li>
               </ul>
          </div>
-         <i class="bx bx-menu" onclick="showMenu()"></i>
+         <i class="fas fa-bars" onclick="showMenu()"></i>
     </nav>
 <div class="main">   
-<div class="text-box">
-    <h1>Hello.</h1>
-    <p>Here I wanna share my cooking, my life and everything :)</p>
-    <a href="https://www.youtube.com/channel/UCk6gG1cMMon6a26S6FPK-QQ" class="hero-btn" target="blank">Youtube Channel</a>
+    <div class="text-box">
+        <h1>Biff Bang Pow<br>front end test.<br></h1>
+        <span class="line"></span>
+        <p>Lorem ipsum dolor sit amet, consectetuer<br> adipiscing elit, sed diam</br></p>
+        <div class="wrap">
+            <div class="search">
+                <i class="fas fa-search"></i><input type="text" class="searchTerm" placeholder="Enter The keyword or job title" >
+               <button type="submit" class="searchButton">
+                SEARCH 
+              </button>
+            </div>
+         </div>
+        <a href="#" class="hero-btn">ABOUT US</a>
+    </div>
+    <video autoplay loop muted class="back-video">
+        <source src="images/video.mp4" type="video/mp4">
+    </video>
 </div>
 </section>
 
-<!-----Youtube----->
+<!-----first content----->
 
-<section class="youtube">
-    <h1>Recent videos</h1>
-    <p>Click the links inside the pictures!</p>
-
+<section class="first-container">
     <div class="row">
-        <div class="youtube-col">
-            <img src="images/earlygreycake.png">
-            <div class="layer">
-                <a href="https://www.youtube.com/watch?v=cnDNUB8MXho&t=79s"><h3>Earl Grey Millie<br>Crepe Cake</br></h3></a>
-            </div>
+        <div class="first-col">
+            <h1>Next Level Recruitment</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+            </p>
+            <a href="#" class="hero-btn blue-btn">OUR CLIETS</a>
         </div>
-        <div class="youtube-col">
-            <img src="images/ketobread.png">
-            <div class="layer">
-                <a href="https://www.youtube.com/watch?v=3E_5qv5LREk&t=116s"><h3>Keto Bread</h3></a>
-            </div>
-        </div>
-        <div class="youtube-col">
-            <img src="images/ketocake.png">
-            <div class="layer">
-                <a href="https://www.youtube.com/watch?v=Q60pJ2ZlRr8&t=196s"><h3>Keto Basque Cheesecake</h3></a>
-            </div>
+        <div class="first-col"> 
+            <img src="images/text-image.png">
         </div>
     </div>
-</section> 
+</section>
 
-<!-----Life----->
+<!-----second content----->
 
-<section class="life">
-    <h1>Life update</h1>
-    <p>My life in the UK.</p>
-
+<section class="second-container">
     <div class="row">
-        <div class="life-col">
-            <img src="images/UK supermarket.jpg">
-            <h3>Supermarket</h3>
-            <p>I recently moved to UK.</p>
+        <div class="second-col">
+            <iframe src="https://player.vimeo.com/video/100902001?h=dcaa89d3e0&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="life-col">
-            <img src="images/Wollaton.jpg">
-            <h3>Wollaton Hall</h3>
-            <p>This is the place where BatMan lives.</p>
-        </div>
-        <div class="life-col">
-            <img src="images/cookbook1.jpg">
-            <h3>Home cook</h3>
-            <p>Cook for my family everyday...</p>
+        <div class="second-col">
+            <h1>Next Level Recruitment</h1>     
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+            </p>
+            <a href="#" class="hero-btn blue-btn">OUR CLIETS</a>
         </div>
     </div>
 </section>
-
-<!-----Contact Me----->
-
-<section class="contact">
-    <h2>Feel free to like, comment and subscribe my channel!</h2>
-    <a href="https://www.youtube.com/channel/UCk6gG1cMMon6a26S6FPK-QQ" class="hero-btn" target="blank">Visit & Subscribe</a>
-</section>
-
-<!-----Footer----->
-
-<section class="footer">
-    <h4>Arnold Chan</h4>
-    <p>This is my personal website.</p>
-    <div class="icons">
-        <a href="https://www.facebook.com/chilok.chan.1"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/rchanchilok/"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.youtube.com/watch?v=3E_5qv5LREk&t=116s"><i class="bx bxl-youtube"></i></a>
-    </div>
-    <p>Made by bella-works.com</p>
-</section>
-</div>
 
 <!-----JavaScript for Toggle Menu----->
 <script>
